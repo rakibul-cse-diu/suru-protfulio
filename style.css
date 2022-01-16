@@ -10,6 +10,9 @@
     background-color: #14104B;
     color: #74809C;
 }
+section{
+    margin: 0 8% 0;
+}
 li{
     list-style: none;
 }
@@ -54,15 +57,40 @@ nav ul a:hover{
 nav a{
     padding: 8px 24px;
 }
-nav > a{
+nav > a, .transparent-btn{
     border: 1px solid #FF6075;
+    padding: 8px 24px;
     border-radius: 8px;
     color: #FF4D71;
     cursor: pointer;
 }
 
 
-
+/* Introduction Section  */
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.description-text, .description-img{
+    width: 45%;
+}
+.description-text h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.description-text h1 {
+    font-size: 60px;
+    line-height: 1.8em;
+    color: white;
+}
+.description-text h2 {
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+.description-img img{
+    width: 100%;
+}
 
 
 
