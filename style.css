@@ -1,0 +1,74 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* Universal */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #14104B;
+    color: #74809C;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Header area  */
+header{
+    margin: 30px 8% 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{
+    font-size: 36px;
+    background-image: linear-gradient(to right, #22EDFB, #FF4D71);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+nav, nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a{
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 1s;
+}
+nav ul a:hover{
+    background-color: #FF6075;
+    color: white;
+}
+nav a{
+    padding: 8px 24px;
+}
+nav > a{
+    border: 1px solid #FF6075;
+    border-radius: 8px;
+    color: #FF4D71;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 1068px for NAV BAR  */
