@@ -22,7 +22,19 @@ li{
 a{
     text-decoration: none;
 }
-
+.btn-link{
+    border: none;
+    outline: none;
+    margin: 20px;
+}
+.btn-link a{
+    font-size: 20px;
+    color: #FF6075;
+}
+.btn-link .fas{
+    font-size: 20px;
+    color: #FF6075;
+}
 
 /* Header area  */
 header{
@@ -161,6 +173,63 @@ nav > a, .transparent-btn{
 }
 .do-text p{
     font-size: 14px;
+}
+
+
+/* My recent projects */
+.recent-project{
+    margin-top: 50px;
+}
+.projrct-area-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.area-discription{
+    align-self: baseline;
+    margin-bottom: 60px;
+}
+.area-discription h3{
+    border-bottom: 1px solid #FF6075;
+    margin-bottom: 20px;
+}
+.area-discription h2{
+    color: white;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.area-discription p{
+    font-size: 14px;
+}
+.projects{
+    display: grid;
+    grid-template-areas: "p1 p2 p3"
+                         "p4 p5 p5"
+                         "p4 p6 p7";
+    column-gap: .5em;
+    row-gap: .3em;
+}
+.project-1{
+    grid-area: p1;
+}
+.project-2{
+    grid-area: p2;
+}
+.project-3{
+    grid-area: p3;
+}
+.project-4{
+    grid-area: p4;
+}
+.project-5{
+    grid-area: p5;
+}
+.project-6{
+    grid-area: p6;
+}
+.project-7{
+    grid-area: p7;
 }
 
 
