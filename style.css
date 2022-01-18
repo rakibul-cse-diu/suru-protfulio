@@ -10,6 +10,12 @@
     background-color: #14104B;
     color: #74809C;
 }
+h3, p{
+    background-color: transparent;
+}
+section{
+    margin: 0 8% 0;
+}
 li{
     list-style: none;
 }
@@ -54,17 +60,108 @@ nav ul a:hover{
 nav a{
     padding: 8px 24px;
 }
-nav > a{
+nav > a, .transparent-btn{
     border: 1px solid #FF6075;
+    padding: 8px 24px;
     border-radius: 8px;
     color: #FF4D71;
     cursor: pointer;
 }
 
 
+/* Introduction Section  */
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.description-text, .description-img{
+    width: 45%;
+}
+.description-text h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.description-text h1 {
+    font-size: 60px;
+    line-height: 1.8em;
+    color: white;
+}
+.description-text h2 {
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+.description-img img{
+    width: 100%;
+}
 
 
-
+/* What I do  */
+.what-i-do{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.5em;
+    align-items: center;
+}
+.do-features{
+    display: flex;
+    height: 500px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+.col-1{
+    justify-content: flex-start;
+}
+.col-2{
+    justify-content: flex-end;
+}
+.col-item{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.col-item h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.col-item p{
+    font-size: 14px;
+    color: rgb(195, 186, 186);
+}
+.col h3{
+    color: white;
+}
+.web-app{
+    background-image: linear-gradient(130deg, #3E138F, #1FBAD7);
+    box-shadow: 3px 2px 13px #32d8f5;
+}
+.web-design{
+    background-image: linear-gradient(25deg, #5AACD1, #9E59FC);
+    box-shadow: 3px 2px 13px #9f4aff;
+}
+.web-development{
+    background-image: linear-gradient(30deg, #804bca, #2D15B2);
+    box-shadow: 3px 2px 13px #8121ee;
+}
+.prototyping{
+    background-image: linear-gradient(130deg, #4E178B, #a3407b);
+    box-shadow: 3px 2px 13px #cf4498;
+}
+.do-text h3{
+    border-bottom: 1px solid #FF6075;
+    margin-bottom: 20px;
+}
+.do-text h2{
+    color: white;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.do-text p{
+    font-size: 14px;
+}
 
 
 
