@@ -52,7 +52,9 @@ a{
 .info p{
     font-size: 14px;
 }
-
+.side-img img{
+    width: 100%;
+}
 
 /* Header area  */
 header{
@@ -277,6 +279,38 @@ nav > a, .transparent-btn{
 }
 
 
+/* My Skills  */
+.my-skills{
+    margin-top: 70px;
+}
+
+
+/* Clients Words */
+.review{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.review .area-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.side-img-wrapper{
+    background-color: rgba(211, 211, 211, 0.219);
+    padding: 8px;
+    border-radius: 8px;
+}
+.review .side-img{
+    width: 40%;
+}
+.review .side-img h4{
+    color: rgb(255, 255, 255);
+    text-align: end;
+}
+.review .side-img h4, .review .side-img p{
+    background-color: transparent;
+}
 
 
 /* 1068px for NAV BAR  */
