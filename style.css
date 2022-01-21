@@ -35,6 +35,24 @@ a{
     font-size: 20px;
     color: #FF6075;
 }
+.area-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2em;
+}
+.info h3{
+    border-bottom: 1px solid #FF6075;
+    margin-bottom: 20px;
+}
+.info h2{
+    color: white;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.info p{
+    font-size: 14px;
+}
+
 
 /* Header area  */
 header{
@@ -233,6 +251,30 @@ nav > a, .transparent-btn{
 }
 
 
+/* About Me  */
+.about{
+    margin-top: 50px;
+}
+.info ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    margin-top: 1em;
+}
+.info ul li{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.hire-me-btn{
+    border: none;
+    padding: 10px 24px;
+    background-color: #FF4D71;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 15px;
+}
 
 
 
