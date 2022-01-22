@@ -13,7 +13,7 @@
 h3, p{
     background-color: transparent;
 }
-section{
+section, footer{
     margin: 0 8% 0;
 }
 li{
@@ -39,6 +39,7 @@ a{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2em;
+    /* row-gap: 2em; */
 }
 .info h3{
     border-bottom: 1px solid #FF6075;
@@ -55,6 +56,11 @@ a{
 .side-img img{
     width: 100%;
 }
+::placeholder{
+    color: rgb(221, 219, 219);
+    font-style: italic;
+    opacity: 1;
+}
 
 /* Header area  */
 header{
@@ -63,7 +69,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.logo h2{
+.logo h2, .footer-top .logo h2{
     font-size: 36px;
     background-image: linear-gradient(to right, #22EDFB, #FF4D71);
     background-clip: text;
@@ -281,14 +287,14 @@ nav > a, .transparent-btn{
 
 /* My Skills  */
 .my-skills{
-    margin-top: 70px;
+    margin-top: 120px;
 }
 
 
 /* Clients Words */
 .review{
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 .review .area-wrapper{
     display: flex;
@@ -298,19 +304,84 @@ nav > a, .transparent-btn{
 }
 .side-img-wrapper{
     background-color: rgba(211, 211, 211, 0.219);
-    padding: 8px;
+    padding: 20px;
     border-radius: 8px;
 }
 .review .side-img{
     width: 40%;
 }
 .review .side-img h4{
-    color: rgb(255, 255, 255);
+    color: #FF4D71;
     text-align: end;
+    margin-top: 1em;
+    margin-right: 3em;
 }
 .review .side-img h4, .review .side-img p{
     background-color: transparent;
 }
+
+
+/* Contact  */
+.contact{
+    margin-bottom: 80px;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.contact-info > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact-info > div .fas{
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.37);
+    color: #FF6075;
+    border-radius: 5px;
+}
+.contact-info > div > span{
+    margin-left: 10px;
+}
+.contact-info > div > div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.contact-form{
+    padding: 2em;
+    background-color: rgba(211, 211, 211, 0.452);
+    border-radius: 12px;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+}
+.contact-form form input{
+    margin-bottom: 2rem;
+    height: 3em;
+    box-shadow: 2px 1px 7px lightgrey;
+    background-color: transparent;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.contact .side-img{
+    padding-top: 50px;
+    align-items: flex-end;
+}
+
+
+/* Footer  */
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 
 /* 1068px for NAV BAR  */
