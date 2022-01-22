@@ -323,7 +323,7 @@ nav > a, .transparent-btn{
 
 /* Contact  */
 .contact{
-    margin-bottom: 80px;
+    margin-bottom: 150px;
 }
 .contact-info{
     display: flex;
@@ -379,6 +379,20 @@ nav > a, .transparent-btn{
 .footer-top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid gray;
+}
+.social-links .fab{
+    margin: 0 1em;
+    font-size: 24px;
+    color: #FF4D71;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
