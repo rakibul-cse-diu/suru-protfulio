@@ -406,9 +406,7 @@ nav > a, .transparent-btn{
 
 /* Responsive Media query  */
 
-
-
-
+/* Medium Device  */
 @media screen and (max-width: 768px) {
 
     .area-wrapper{
@@ -423,7 +421,6 @@ nav > a, .transparent-btn{
         width: 100%;
     }
 
-
     /* Projects  */
     .projects {
         grid-template-areas:
@@ -431,16 +428,11 @@ nav > a, .transparent-btn{
             "p3 p7"
             "p5 p5"
             "p4 p6";
-    }
-
-    /* About me  */
-
-    
+    }   
 }
 
 
-
-
+/* Small Device */
 @media screen and (max-width: 480px) {
     /* Projects  */
     .projects {
@@ -456,8 +448,7 @@ nav > a, .transparent-btn{
 }
 
 
-
-
+/* Large Device */
 @media screen and (max-width: 1068px) {
 
     /* Navigation */
@@ -488,7 +479,6 @@ nav > a, .transparent-btn{
     header .fas{
         display: block;
     }
-
 
     /* What i do */
     .what-i-do{

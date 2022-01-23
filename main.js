@@ -1,3 +1,4 @@
+// Interactive Toggle menu 
 const Menu = document.getElementById("menu");
 const Nav = document.getElementById("nav");
 const ToggleClose = document.getElementById("toggle-close");
