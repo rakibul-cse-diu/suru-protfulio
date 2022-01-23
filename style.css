@@ -61,6 +61,10 @@ a{
     font-style: italic;
     opacity: 1;
 }
+header .fas , nav .far{
+    display: none;
+    font-size: 36px;
+}
 
 /* Header area  */
 header{
@@ -399,3 +403,98 @@ nav > a, .transparent-btn{
 
 
 /* 1068px for NAV BAR  */
+
+/* Responsive Media query  */
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .area-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    /* Intro  */
+    .intro{
+        flex-direction: column-reverse;
+    }
+    .description-text, .description-img{
+        width: 100%;
+    }
+
+
+    /* Projects  */
+    .projects {
+        grid-template-areas:
+            "p1 p2"
+            "p3 p7"
+            "p5 p5"
+            "p4 p6";
+    }
+
+    /* About me  */
+
+    
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    /* Projects  */
+    .projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-5{
+        display: none;
+    }
+      
+}
+
+
+
+
+@media screen and (max-width: 1068px) {
+
+    /* Navigation */
+    nav{
+        flex-direction: column;
+        border: 1px solid orangered;
+        position: fixed;
+        top: 0px;
+        right: -427px;
+        height: 60vh;
+        width: 40vw;
+        padding: 30px 0;
+        overflow-y: scroll;
+        transition: .5s;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li{
+        margin: 30px auto;
+    }
+    nav .far{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+    header .fas{
+        display: block;
+    }
+
+
+    /* What i do */
+    .what-i-do{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+}
